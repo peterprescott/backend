@@ -1,2 +1,7 @@
 flask
 gitpython
+sqlalchemy
+flask-graphql
+flask-graphql-auth
+graphene-sqlalchemy
+pyjwt
