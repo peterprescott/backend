@@ -1,0 +1,7 @@
+#! /bin/sh
+# this needs to be moved into the repo .git/hooks folder
+
+pip install -r /home/backend1234/backend/requirements.py
+
+# reload PythonAnywhere Flask app
+touch /var/www/backend1234_pythonanywhere_com_wsgi.py
