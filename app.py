@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello beautiful world'
+    return 'Hello world'
 
 @app.route('/git', methods=['GET','POST'])
 def pull():
