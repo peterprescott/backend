@@ -13,7 +13,7 @@ from flask_graphql_auth import (
         query_header_jwt_required,
         create_refresh_token
         )
-from app.models import db_session, User as UserModel
+from flask_app.models import db_session, User as UserModel
 
 class User(SQLAlchemyObjectType):
     class Meta:

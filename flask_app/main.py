@@ -18,9 +18,9 @@ from flask_graphql_auth import (
         mutation_jwt_required,
         )
 from flask_graphql import GraphQLView
-from app.models import db_session
-from app.schema import schema
-from app.secret import JWT_SECRET_KEY
+from flask_app.models import db_session
+from flask_app.schema import schema
+from flask_app.secret import JWT_SECRET_KEY
 
 app = Flask(__name__)
 app.config['JWT_SECRET_KEY'] = JWT_SECRET_KEY
