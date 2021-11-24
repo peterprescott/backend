@@ -11,6 +11,6 @@ def hello_world():
 
 @app.route('/git')
 def pull():
-    repo = git.Repo(os.path.join('~','backend1234'))
+    repo = git.Repo(os.path.join('~','backend'))
     repo.remotes.origin.pull()
     return 'Updated'
